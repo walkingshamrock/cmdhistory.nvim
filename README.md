@@ -1,6 +1,6 @@
 # cmdhistory.nvim
 
-`cmdhistory.nvim` is a Neovim plugin designed to enhance your command-line experience by providing an intuitive and efficient command history management system.
+`cmdhistory.nvim` is a Neovim plugin that enhances your command-line experience by providing an intuitive and efficient command history management system.
 
 ## Features
 
@@ -10,7 +10,7 @@
 
 ## Installation
 
-Use your favorite plugin manager to install `cmdhistory.nvim`. For example, using [lazy.nvim](https://github.com/folke/lazy.nvim):
+Install `cmdhistory.nvim` using your preferred plugin manager. For example, with [lazy.nvim](https://github.com/folke/lazy.nvim):
 
 ```lua
 require('lazy').setup({
@@ -18,14 +18,18 @@ require('lazy').setup({
 })
 ```
 
-Then, restart Neovim to load the plugin.
+Restart Neovim to load the plugin.
 
 ## Usage
 
-After installation, the plugin will automatically start managing your command history. Use the following commands to interact with it:
+Once installed, the plugin automatically manages your command history. Use the following commands to interact with it:
 
-- `:CmdHistory` - Open the command history window.
-- `:CmdHistoryClear` - Clear the command history.
+- `:CmdHistory` - Opens the command history window.
+- `:CmdHistoryClear` - Clears the command history.
+
+In the command history window:
+- Press `Enter` to execute the selected command.
+- Press `Shift-Enter` to edit the selected command.
 
 ## License
 
